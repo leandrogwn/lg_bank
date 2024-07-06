@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lg-bank"
+version = "0.1.0"
+description = ""
+authors = ["Leandro Gonçalves <leandro.gwn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
